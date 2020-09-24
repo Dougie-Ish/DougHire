@@ -1,0 +1,40 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  height: max-content;
+  position: absolute;
+  top: 10vh;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+.checkout__title {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.checkout__right {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding: 6px;
+    width: 96%;
+  }
+
+  .checkout__title {
+    width: 80vw;
+    /* border: none; */
+    padding: 4px;
+    margin: auto auto 10px 50px;
+  }
+}

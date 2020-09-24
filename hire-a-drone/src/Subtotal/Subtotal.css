@@ -1,0 +1,40 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 120px;
+  background-color: #eaeaea;
+  border: 1px solid #f7f7f7;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.subtotal__select > select {
+  padding: 4px;
+  margin-left: 2px;
+}
+
+.subtotal__select > select > option {
+  font-size: 14px;
+}
+
+.subtotal > button {
+  padding: 8px;
+  background-color: #0b80e0;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+.subtotal > button:hover {
+  background-color: #0d73c7;
+}
+
+@media screen and (max-width:768px) {
+  .subtotal {
+    width: 94%;
+    padding: 10px;
+  }
+}

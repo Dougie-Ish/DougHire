@@ -1,0 +1,86 @@
+.login {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.login__logo {
+  width: 100px;
+  object-fit: contain;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container > h3 {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.login__container > form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.login__container > form > span {
+  font-size: 17px;
+  margin-top: 3px;
+}
+
+.login__container > form > input {
+  padding: 14px;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.login__loginButton {
+  background-color: #0c87ec;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.login__loginButton:hover {
+  background-color: #0c7ad4;
+}
+
+.login__registerButton {
+  background-color: #1362bd;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+.login__registerButton:hover {
+  background-color: #0e59ad;
+}
+
+.buttons {
+  padding: 10px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 557px) {
+  .login {
+    width: 90%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

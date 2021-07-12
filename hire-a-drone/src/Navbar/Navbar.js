@@ -16,6 +16,8 @@ function Navbar(){
   function handleClick() {
     setstate({clicked: !state.clicked})
   }
+  
+  console.log({user});
 
   const [{ cart, user }] = useStateValue();
 
